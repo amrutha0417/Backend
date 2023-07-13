@@ -1,0 +1,49 @@
+GET http://localhost:3500/user-api/get-users
+
+###
+GET http://localhost:3500/user-api/get-user/Pallavi
+
+###
+POST http://localhost:3500/user-api/user-signup
+Content-Type: application/json
+
+{
+    "username":"Pallavi",
+    "password":"pallavi",
+    "email":"pallavi@gmail.com"
+}
+
+###
+PUT http://localhost:3500/user-api/update-user
+Content-Type: application/json
+
+{
+    "username":"pallavi Reddy",
+    "password":"pallavi Reddy",
+    "email":"pallavireddy@gmail.com"
+}
+
+###
+DELETE http://localhost:3500/user-api/delete-user/200
+
+###
+GET http://localhost:3500/products-api/get-products
+
+###
+POST http://localhost:3500/products-api/create-product
+
+###
+DELETE http://localhost:3500/products-api/delete-product
+
+###
+POST http://localhost:3500/user-api/user-login
+Content-Type: application/json
+
+{
+    "username":"Pallavi",
+    "password":"pallavi"
+}
+
+###
+GET http://localhost:3500/user-api/test
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlBhbGxhdmkiLCJpYXQiOjE2ODg5NzM4NzcsImV4cCI6MTY4ODk3Mzg5N30.oFfF8sSBubjuu8-vlBtdq9zplXXJp8GHGu3UX0ry3ag
